@@ -1,0 +1,40 @@
+{
+  "name": "lenpro",
+  "version": "0.0.1",
+  "description": "Actividades",
+  "productName": "Proyecto - Lenguajes de programacion",
+  "cordovaId": "org.cordova.quasar.app",
+  "author": "Jesus Castillo Hernandez",
+  "private": true,
+  "homepage": "https://jesusblls.github.io/lenpro",
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0",
+    "predeploy": "quasar build -t ios",
+    "deploy": "gh-pages -d dist/spa-ios"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.10.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^5.0.0",
+    "gh-pages": "^2.0.1",
+    "quasar-cli": "^0.17.0",
+    "strip-ansi": "=3.0.1"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ],
+  "resolutions": {
+    "ajv": "6.8.1"
+  }
+}
